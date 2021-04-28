@@ -1,0 +1,267 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+li a{
+    cursor:pointer;
+}
+
+.sidebar1 {
+    background: #414956;
+    padding: 21px 13px;
+}
+
+.sidebar1 li a{
+    color: #fff!important;
+}
+
+.main-content {
+    margin-top: 15px;
+}
+
+.left-navigation ul {
+    padding: 0;
+    background: solid 1px #3b424d;
+}
+
+.left-navigation ul li {
+    display: inliblock;
+    list-style-type: none;
+    width: 100%;
+    border-bottom: #3b424d;
+
+}
+
+.left-navigation li a {
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    width: 100%;
+    padding: 4px 0;
+}
+
+.left-navigation li.dropdown > .dropdown-toggle .caret {
+    border-bottom-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+}
+
+span.caratBx {
+    float: right;
+    color: #d2d2d2;
+}
+
+.left-navigation li a:hover {
+   text-decoration: none
+
+}
+
+.left-navigation li:hover {
+   opacity: 0.6;
+}
+
+.card-header
+{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f8f9fc!important;
+    border-bottom: 1px solid #e3e6f0!important;
+}
+
+.statsbx a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.pageheader {
+    margin-bottom: 7px;
+}
+
+
+
+.loginbx {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+}
+
+.loginbx input{
+  border-radius:0!important;
+}
+
+
+
+.logosec {
+    margin: auto;
+    background: #03CBCD!important;
+    padding: 0;
+    overflow: hidden;
+}
+
+img.grublogo {
+    width: 20%;
+    height: auto;
+}
+
+
+
+/*=== places api styles ====*/
+ #map {
+    height: 250px;
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  #infowindow-content .title {
+    font-weight: bold;
+  }
+
+  #infowindow-content {
+    display: none;
+  }
+
+  #map #infowindow-content {
+    display: inline;
+  }
+
+  .pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+  }
+
+  #pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+  }
+
+  .pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+  }
+
+  .pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+  }
+
+  #pac-input:focus {
+    border-color: #4d90fe;
+  }
+
+  #title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+  }
+
+/*=== end of places api styles ====*/
+.switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+
+  .switch input {
+    display:none;
+  }
+
+  .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+
+  input:checked + .slider {
+    background-color: #66bb6a;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+/*==== Grub Timeline ==*/
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+
+/*=== Dashboard Css ===*/
+
+.editbalance{
+    padding-right:10px;
+}
+
+
+
+/*==== Vertical Menu ===*/
